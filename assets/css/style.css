@@ -1,0 +1,199 @@
+/* font-family: 'Open Sans', sans-serif; */
+html {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/* clase en común para la sección de barra de navegación y footer */
+.suricata {
+  background-color: #E83E8C;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding-left: 120px;
+    padding-right: 90px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 30px;
+  text-align: right;
+}
+
+#logo {
+  width: 132px;
+  height: 53px;
+}
+
+/*CUERPO*/
+.cuerpo {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media (min-width: 768px) {
+  .cuerpo {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
+
+.cuerpo .titulo {
+  font-weight: 700;
+  color: #707070;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 41px;
+  padding-bottom: 29px;
+  margin-bottom: 0px;
+  line-height: 47px;
+}
+
+@media (min-width: 768px) {
+  .cuerpo .titulo {
+    font-size: 60px;
+    padding-top: 64px;
+    padding-bottom: 77px;
+    margin-bottom: 0px;
+    line-height: 82px;
+  }
+}
+
+.card-deck {
+  color: #373A3C;
+  box-sizing: none;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .card-deck {
+    margin-right: -45px;
+    margin-left: -20px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .card-deck {
+    color: #373A3C;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .card-deck .card {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+.card-deck .card {
+  color: #373A3C;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .card-deck .card {
+    text-align: center;
+    color: #373A3C;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+}
+
+.card-text {
+  font-weight: 400;
+  color: #373A3C;
+  font-size: 16px;
+}
+
+.card-text,.card-title,.card li,.card-body {
+  text-align: left;
+}
+
+
+.card li, .card a {
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  #margen-der {
+    margin-right: 88px;
+  }
+  #margin-der-0 {
+    margin-right: 0;
+  }
+}
+
+/* Estilos de la sección con la clase "icons-section"*/
+@media (min-width: 768px){
+  .icons-section {
+    height: 170px;
+    background-color: #17A2B8;
+    margin-top: 118px;
+    padding-top: 58px;
+  }
+  .icons-section p {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    line-height: 55px;
+    display: inline;
+  }
+
+  .icons-section .tarjetas {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -25px;
+  }
+
+  .icons-section .tarjetas ul li {
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+  }
+
+  .icons-section i {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .icons-section {
+    display: none;
+  }
+}
+
+/* FOOTER*/
+footer {
+  height: 184px;
+  text-align: center;
+}
+
+footer img {
+  width: 53px;
+  padding-top: 30px;
+}
