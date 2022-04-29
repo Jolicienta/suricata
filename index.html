@@ -4,28 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
+    <!-- SCRIPT DE FONTAWESOME -->
     <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>
+    <!-- API DE GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- MI HOJA DE ESTILOS CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-
-    <!-- NAVEGADOR -->
-    <!-- Aplicación de clase de Bootstrap "text-white" -->
+    <!-- NAVBAR -->
     <nav class="suricata navbar navbar-expand-lg navbar-dark text-white">
-      <a class="navbar-brand" href="#">
-        <img id="logo" src="assets/img/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" href="#">Inicio</a>
-        <a class="nav-item nav-link" href="#">Productos</a>
-        <a class="nav-item nav-link" href="#">Contacto</a>
-      </div>
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="logo" src="assets/images/logo.png" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -43,11 +53,10 @@
       <div class="container">
 
       <!-- 1era fila -->
-        <div class="card-deck">
-
+        <div class="card-group">
           <!-- Producto 1 -->
             <div id="margen-der" class="card">
-              <img src="assets/img/colaciones.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/colaciones.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Colaciones</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -64,7 +73,7 @@
 
           <!-- Producto 2 -->
             <div id="margen-der" class="card">
-              <img src="assets/img/desayunos.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/desayunos.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Desayunos</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -81,7 +90,7 @@
 
           <!-- Producto 3 -->
             <div id="margin-der-0" class="card">
-              <img src="assets/img/bebidas.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/bebidas.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Bebidas</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -99,11 +108,10 @@
         </div>
 
       <!-- 2da fila -->
-        <div class="card-deck">
-
+        <div class="card-group">
           <!-- Producto 4 -->
             <div id="margen-der" class="card">
-              <img src="assets/img/verduras.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/verduras.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Verduras</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -120,7 +128,7 @@
 
           <!-- Producto 5 -->
             <div id="margen-der" class="card">
-              <img src="assets/img/dulces.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/dulces.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Dulces</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -137,7 +145,7 @@
 
           <!-- Producto 6 -->
             <div id="margin-der-0" class="card">
-              <img src="assets/img/empanadas.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/empanadas.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Empanadas</h5>
                 <p class="card-text">Some quick example text to build on the card title and</p>
@@ -175,15 +183,11 @@
 
     <!-- FOOTER -->
     <footer class="suricata">
-          <img src="assets/img/logo-footer.png" alt="">
-  </footer>
+          <img src="assets/images/logo-footer.png" alt="">
+   </footer>
 
-
-    <!-- Scripts de JS y JQuery para Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>
 
 <!-- Jolicienta -->
